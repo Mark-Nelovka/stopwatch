@@ -1,0 +1,82 @@
+.containerBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btnStart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  margin-right: 15px;
+  border: none;
+}
+
+.btnWait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  margin-right: 15px;
+  border: none;
+}
+
+.btnStop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  margin-right: 15px;
+  border: none;
+}
+
+.btnReset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  margin-right: 15px;
+  border: none;
+}
+
+.btnStart:hover {
+  background-color: greenyellow;
+  transform: scale(1.1);
+}
+
+.btnWait:hover {
+  background-color: orange;
+  transform: scale(1.1);
+}
+
+.btnStop:hover {
+  background-color: tomato;
+  transform: scale(1.1);
+}
+
+.btnReset:hover {
+  background-color: rgb(200, 236, 146);
+  transform: scale(1.1);
+}
+
+.value {
+  display: inline-block;
+  padding: 10px;
+  font-size: 40px;
+  border: 2px solid black;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
